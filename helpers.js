@@ -3,11 +3,14 @@ function parseQuery(query) {
         query = window.location.href;
     }
     var i = query.indexOf("?");
-    if (i > -1) {
+    if (i != -1) {
         query = query.slice(i + 1);
-    } else {
+    }
+    i = query.indexOf("=");
+    if (i == -1) {
         query = '';
     }
+
     var paramsObj = new Object();
     var paramsArr = query.split('&');
     for (var i = 0; i < paramsArr.length; i++) {
