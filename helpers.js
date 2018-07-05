@@ -2,11 +2,11 @@ function parseQuery(query) {
     if (!query) {
         query = window.location.href;
     }
-    var i = query.indexOf("?");
+    var i = query.indexOf('?');
     if (i != -1) {
         query = query.slice(i + 1);
     }
-    i = query.indexOf("=");
+    i = query.indexOf('=');
     if (i == -1) {
         query = '';
     }
