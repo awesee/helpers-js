@@ -1,5 +1,5 @@
 {
-  "name": "helpers",
+  "name": "openhelpers",
   "version": "1.0.0",
   "description": "Helpers for js",
   "main": "helpers.js",
