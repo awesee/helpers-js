@@ -1,0 +1,24 @@
+{
+  "name": "helpers",
+  "version": "1.0.0",
+  "description": "Helpers for js",
+  "main": "helpers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openset/helpers-js.git"
+  },
+  "keywords": [
+    "openset",
+    "helpers",
+    "js"
+  ],
+  "author": "Sandy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openset/helpers-js/issues"
+  },
+  "homepage": "https://github.com/openset/helpers-js#readme"
+}
